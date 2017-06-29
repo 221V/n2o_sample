@@ -1,0 +1,9 @@
+{application, sample_app,
+ [
+  {description, "Planetwork API Application"},
+  {vsn, "2.9"},
+  {registered, []},
+  {applications, [kernel, stdlib, n2o, syn]},
+  {mod, { sample_app, []}},
+  {env, []}
+ ]}.
