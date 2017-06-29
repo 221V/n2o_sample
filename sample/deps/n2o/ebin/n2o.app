@@ -1,0 +1,13 @@
+{application,n2o,
+             [{description,"N2O WebSocket Application Server"},
+              {vsn,"4.4"},
+              {applications,[kernel,stdlib,cowboy]},
+              {modules,[n2o,n2o_async,n2o_client,n2o_cowboy,n2o_cx,
+                        n2o_document,n2o_error,n2o_file,n2o_heart,n2o_http,
+                        n2o_io,n2o_log,n2o_mq,n2o_multipart,n2o_nitrogen,
+                        n2o_pickle,n2o_proto,n2o_query,n2o_relay,n2o_secret,
+                        n2o_session,n2o_static,n2o_stream,n2o_syn,n2o_text,wf,
+                        wf_convert,wf_utils]},
+              {registered,[]},
+              {mod,{n2o,[]}},
+              {env,[]}]}.

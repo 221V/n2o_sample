@@ -1,0 +1,11 @@
+{application,mad,
+             [{description,"MAD VXZ Build Tool"},
+              {vsn,"1.9"},
+              {registered,[]},
+              {applications,[kernel,stdlib,inets]},
+              {env,[]},
+              {modules,[mad,mad_app,mad_compile,mad_dtl,mad_erl,mad_escript,
+                        mad_git,mad_leex,mad_ling,mad_local,mad_none,mad_port,
+                        mad_release,mad_repl,mad_resolve,mad_run,mad_script,
+                        mad_static,mad_synrc,mad_systools,mad_utils,mad_vz,
+                        mad_yecc]}]}.
